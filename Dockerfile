@@ -8,7 +8,7 @@ RUN apt-get update && apt-get install -y git curl && \
     apt-get install -y nodejs
 
 # Clonar e instalar tp-mcp
-RUN git clone https://github.com/TU-USUARIO/trainingpeaks-mcp.git . && \
+RUN git clone https://github.com/isikux-design/trainingpeaks-mcp.git . && \
     pip install -e .
 
 EXPOSE 8000
